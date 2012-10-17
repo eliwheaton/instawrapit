@@ -70,7 +70,6 @@ return array(
 		'mysql' => array(
 			'driver'      => 'mysql',
 			'host'        => 'localhost',
-			'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
 			'database'    => 'instawrapit',
 			'username'    => 'iw_admin',
 			'password'    => 'fAtha8Ubre6A',
