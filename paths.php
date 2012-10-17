@@ -23,8 +23,9 @@
 
 $environments = array(
 
-	'local' => array('http://localhost*', '*.dev'),
-	'elilocal' => array('*.loc')
+    'local'     => array('http://localhost*'),
+    'elilocal'  => array('*.loc'),
+    'davelocal' => array('*.dev')
 
 );
 
