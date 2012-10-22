@@ -34,6 +34,13 @@
 
 Route::controller(Controller::detect());
 
+// Launchrock route
+Route::get('/', function()
+{
+    return Redirect::to('launchrock');
+});
+
+
 /*
 |--------------------------------------------------------------------------
 | Application 404 & 500 Error Handlers
