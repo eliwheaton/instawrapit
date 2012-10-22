@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title></title>
+    <title>Instawrap.it | Your Pictures. Wrapping Paper. Pure Awesome.</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
 
