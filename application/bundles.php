@@ -36,7 +36,7 @@
 return array(
 
 	'docs' => array('handles' => 'docs'),
-    'oauth2-curl' => array(
+    'laravel-oauth2-curl' => array(
         'auto' => true
         // 'handles' => 'yourhandle'
     ),
