@@ -5890,16 +5890,21 @@ table.hide-for-medium {
   background: #222;
 }
 
+/* line 18, ../sass/app.scss */
+.text-centered {
+  text-align: center;
+}
+
 /* Header Wrap
 ------------------------------------ */
-/* line 20, ../sass/app.scss */
+/* line 24, ../sass/app.scss */
 div.header-wrap {
   background: #222;
   color: #fff;
   font-weight: 300;
   margin-bottom: 20px;
 }
-/* line 26, ../sass/app.scss */
+/* line 30, ../sass/app.scss */
 div.header-wrap h2 {
   font-family: 'Lobster Two', cursive;
   font-style: italic;
@@ -5908,18 +5913,18 @@ div.header-wrap h2 {
 
 /* Footer Wrap
 ------------------------------------ */
-/* line 37, ../sass/app.scss */
+/* line 41, ../sass/app.scss */
 div.footer-wrap {
   background: #222;
   color: #fff;
   font-weight: 300;
   padding-top: 20px;
 }
-/* line 43, ../sass/app.scss */
+/* line 47, ../sass/app.scss */
 div.footer-wrap h5 {
   color: #fff;
 }
-/* line 47, ../sass/app.scss */
+/* line 51, ../sass/app.scss */
 div.footer-wrap ul {
   list-style: none;
 }

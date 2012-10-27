@@ -9,12 +9,20 @@
       <img src="http://placehold.it/1000x400&text=[img 3]" />
       <img src="http://placehold.it/1000x400&text=[img 4]" />
     </div>
-    <hr />
   </div>
 </div>
 @endsection
 
 @section('content')
+<!-- Quick Service Blurb -->
+
+<div class="row">
+  <div class="twelve columns text-center">
+    <h3>Presents are awesome! It's time your wrapping paper is too!</h3>
+    <p>Instawrap.it is habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, <br/> feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+    <hr/>
+  </div>
+</div>
 
 <!-- Callouts -->
 <div class="row">
