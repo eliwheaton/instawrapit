@@ -33,6 +33,8 @@
     
     {{ render('layouts._header'); }}
     
+    @yield('slider')
+
     @yield('content')
     
     {{ render('layouts._footer'); }}
@@ -55,9 +57,6 @@
     
   <!-- Application Javascript, safe to override -->
     {{ HTML::script('js/foundation/app.js') }}
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../../public/js/jquery-1.8.1.min.js"><\/script>')</script>
-    
     {{ HTML::script('js/plugins.js') }}
     {{ HTML::script('js/main.js') }}
 
