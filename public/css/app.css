@@ -4977,17 +4977,22 @@ div.progress.round .meter {
   padding-top: 10px;
 }
 
+/* line 14, ../sass/app.scss */
+.top-bar ul > li:hover, .top-bar ul > li.active {
+  background: #222;
+}
+
 /* Header Top Bar
 ------------------------------------ */
-/* line 16, ../sass/app.scss */
+/* line 20, ../sass/app.scss */
 div.header-top-bar {
-  background: #222222;
-  color: white;
+  background: #222;
+  color: #fff;
   font-weight: 300;
 }
-/* line 21, ../sass/app.scss */
+/* line 25, ../sass/app.scss */
 div.header-top-bar h2 {
   font-family: 'Lobster Two', cursive;
   font-style: italic;
-  color: #ffffff;
+  color: #fff;
 }

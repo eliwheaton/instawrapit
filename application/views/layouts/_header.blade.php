@@ -5,16 +5,7 @@
         </div>
         <nav class="eight columns top-bar">
             <ul class="right">
-                <li>
-                    <a href="#">Link</a>
-                </li>
-                <li>
-                    <a href="#">Link</a>
-                </li>
-                <li>
-                    <a href="#">Link</a>
-                </li>
-                <li>
+               <li>
                     <a href="#">Sign in with Instagram</a>
                 </li>
             </ul>

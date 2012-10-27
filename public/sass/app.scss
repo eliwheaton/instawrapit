@@ -11,17 +11,21 @@
     padding-top: 10px;
 }
 
+.top-bar ul > li:hover, .top-bar ul > li.active {
+    background: #222;
+}
+
 /* Header Top Bar
 ------------------------------------ */
 div.header-top-bar {
-    background: #222222;
-    color: white;
+    background: #222;
+    color: #fff;
     font-weight: 300;
 
     h2 {
         font-family: 'Lobster Two', cursive;
         font-style: italic;
-        color: #ffffff;
+        color: #fff;
     }
 
 }
