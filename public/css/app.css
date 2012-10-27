@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* Requires: normalize.css */
 /* Global Reset & Standards ---------------------- */
 /* line 5, ../../../../../.rvm/gems/ruby-1.9.3-p286/gems/zurb-foundation-3.2.0/scss/foundation/common/_globals.scss */
@@ -5891,17 +5890,36 @@ table.hide-for-medium {
   background: #222;
 }
 
-/* Header Top Bar
+/* Header Wrap
 ------------------------------------ */
 /* line 20, ../sass/app.scss */
-div.header-top-bar {
+div.header-wrap {
   background: #222;
   color: #fff;
   font-weight: 300;
+  margin-bottom: 20px;
 }
-/* line 25, ../sass/app.scss */
-div.header-top-bar h2 {
+/* line 26, ../sass/app.scss */
+div.header-wrap h2 {
   font-family: 'Lobster Two', cursive;
   font-style: italic;
   color: #fff;
+}
+
+/* Footer Wrap
+------------------------------------ */
+/* line 37, ../sass/app.scss */
+div.footer-wrap {
+  background: #222;
+  color: #fff;
+  font-weight: 300;
+  padding-top: 20px;
+}
+/* line 43, ../sass/app.scss */
+div.footer-wrap h5 {
+  color: #fff;
+}
+/* line 47, ../sass/app.scss */
+div.footer-wrap ul {
+  list-style: none;
 }

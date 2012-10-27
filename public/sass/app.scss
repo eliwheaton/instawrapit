@@ -15,17 +15,37 @@
     background: #222;
 }
 
-/* Header Top Bar
+/* Header Wrap
 ------------------------------------ */
-div.header-top-bar {
+div.header-wrap {
     background: #222;
     color: #fff;
     font-weight: 300;
+    margin-bottom: 20px;
 
     h2 {
         font-family: 'Lobster Two', cursive;
         font-style: italic;
         color: #fff;
     }
+
+}
+
+
+/* Footer Wrap
+------------------------------------ */
+div.footer-wrap {
+  background: #222;
+  color: #fff;
+  font-weight: 300;
+  padding-top: 20px;
+
+  h5 {
+    color: #fff;
+  }
+
+  ul {
+    list-style: none;
+  }
 
 }

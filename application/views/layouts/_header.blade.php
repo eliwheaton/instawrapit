@@ -1,5 +1,5 @@
-<div class="header-top-bar">
-    <div class="row">
+<div class="header-wrap">
+    <header class="row">
         <div class="logo four columns">
             <h2>Instawrap.it</h2>
         </div>
@@ -10,5 +10,5 @@
                 </li>
             </ul>
         </nav>
-    </div>
+    </header>
 </div>
