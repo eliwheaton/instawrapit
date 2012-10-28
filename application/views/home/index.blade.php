@@ -15,7 +15,6 @@
 
 @section('content')
 <!-- Quick Service Blurb -->
-
 <div class="row">
   <div class="twelve columns text-center">
     <h3>Presents are awesome! It's time your wrapping paper is too!</h3>

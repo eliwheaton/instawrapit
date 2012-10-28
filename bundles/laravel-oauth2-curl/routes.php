@@ -39,6 +39,10 @@ Route::get('(:bundle)/(:any)', function($provider)
             }
 
             Session::put('oauth2-access-token-' . $provider, $access_token);
+	    Session::put('id', $response['result']['user']['id']);
+	    Session::put('username', $response['result']['user']['username']);
+	    Session::put('full_name', $response['result']['user']['full_name']);
+	    Session::put('profile_picture', $response['result']['user']['profile_picture']);
 
         }
 
