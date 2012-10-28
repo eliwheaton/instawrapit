@@ -47,7 +47,7 @@ return array(
 		| URI you used when you registered the app.
 		|
 		*/
-		'redirect_uri' => URL::to('oauth2/instagram'),
+		'redirect_uri' => URL::to('home'),
 		/*
 		|--------------------------------------------------------------------------
 		| Authorization Endpoint
