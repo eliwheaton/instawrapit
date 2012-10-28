@@ -19,8 +19,8 @@ IoC::singleton('oauth2-client', function($provider)
 {
     // Get provider specific values from config file
     $client = new OAuth2\Client(
-        Config::get('laravel-oauth2-curl::providers.' . $provider[0] . '.client_id'),
-        Config::get('laravel-oauth2-curl::providers.' . $provider[0] . '.client_secret')
+        Config::get('laravel-oauth2-curl::providers.' . $provider . '.client_id'),
+        Config::get('laravel-oauth2-curl::providers.' . $provider . '.client_secret')
     );
 
     // Set Access token if it already exists

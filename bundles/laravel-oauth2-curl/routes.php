@@ -46,7 +46,7 @@ Route::get('(:bundle)/(:any)', function($provider)
         // I'm redirecting the authenticated user to the
         // "user" route but if you want to add them to your DB
         // and other magic this is the place to do it.
-        return Redirect::to('user');
+        return Redirect::to('home');
 
     // User denied permissions, returns the following parameters:
     // 
