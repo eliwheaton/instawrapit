@@ -24,8 +24,8 @@ IoC::singleton('oauth2-client', function($provider)
     );
 
     // Set Access token if it already exists
-    if (Session::has('oauth2-access-token-' . $provider[0])) {
-        $client->setAccessToken(Session::get('oauth2-access-token-' . $provider[0]));
+    if (Session::has('oauth2-access-token-' . $provider)) {
+        $client->setAccessToken(Session::get('oauth2-access-token-' . $provider));
     }
 
     return $client;
