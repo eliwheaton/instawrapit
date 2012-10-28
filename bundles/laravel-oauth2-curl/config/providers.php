@@ -47,7 +47,7 @@ return array(
 		| URI you used when you registered the app.
 		|
 		*/
-		'redirect_uri' => URL::to('home'),
+		'redirect_uri' => 'http://instawrap.it/home'
 		/*
 		|--------------------------------------------------------------------------
 		| Authorization Endpoint
