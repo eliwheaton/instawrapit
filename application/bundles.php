@@ -36,9 +36,9 @@
 return array(
 
 	'docs' => array('handles' => 'docs'),
-    'laravel-oauth2-curl' => array(
-        'auto' => true
-        // 'handles' => 'yourhandle'
+  'laravel-oauth2-curl' => array(
+        'auto' => true,
+        'handles' => 'oauth2'
     ),
 
 );

@@ -6,7 +6,7 @@
         <nav class="eight columns top-bar">
             <ul class="right">
                <li>
-                    <a href="#">Sign in with Instagram</a>
+                    <a href="/oauth2/instagram">Sign in with Instagram</a>
                 </li>
             </ul>
         </nav>

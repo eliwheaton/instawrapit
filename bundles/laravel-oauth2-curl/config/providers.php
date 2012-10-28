@@ -81,7 +81,7 @@ return array(
 		| if only basic account access is needed.
 		|
 		*/
-		'scopes' => 'likes comments'
+		'scopes' => 'basic'
 	),
 
 );
