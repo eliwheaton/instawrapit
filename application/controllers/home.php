@@ -35,9 +35,23 @@ class Home_Controller extends Base_Controller {
 		return View::make('home.index');
 	}
 
+
+    // Delete all methods below before going live
 	public function action_flush()
 	{
 		Session::flush();
-		Redirect::to('home');
+		return Redirect::to('home');
 	}
+
+    public function action_fakelogin()
+    {
+        Session::put('oauth2-access-token-instagram', 'true');
+        Session::put('(id', '1');
+        Session::put('username', 'reallylongusername');
+        Session::put('full_name', 'Full Name');
+        Session::put('profile_picture', 'http://www.experiencefarm.com/wp-content/uploads/2011/01/instagramIcon.png');
+
+        return Redirect::to('home');
+    }
+
 }

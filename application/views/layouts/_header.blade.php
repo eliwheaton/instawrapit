@@ -11,7 +11,9 @@
                 </li>
             @else
                 <li class="has-dropdown">
- 			        <a href="#">{{ Session::get('username') }}</a>
+
+                    
+ 			        <a href="#"><img src="{{ Session::get('profile_picture') }}" class="profile-picture" />{{ Session::get('username') }}</a>
 
                     <ul class="dropdown">
                         <li>

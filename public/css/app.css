@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Requires: normalize.css */
 /* Global Reset & Standards ---------------------- */
 /* line 5, ../../../../../.rvm/gems/ruby-1.9.3-p286/gems/zurb-foundation-3.2.0/scss/foundation/common/_globals.scss */
@@ -5910,21 +5911,28 @@ div.header-wrap h2 {
   font-style: italic;
   color: #fff;
 }
+/* line 36, ../sass/app.scss */
+div.header-wrap img.profile-picture {
+  width: 20px;
+  position: relative;
+  top: 5px;
+  left: -10px;
+}
 
 /* Footer Wrap
 ------------------------------------ */
-/* line 41, ../sass/app.scss */
+/* line 48, ../sass/app.scss */
 div.footer-wrap {
   background: #222;
   color: #fff;
   font-weight: 300;
   padding-top: 20px;
 }
-/* line 47, ../sass/app.scss */
+/* line 54, ../sass/app.scss */
 div.footer-wrap h5 {
   color: #fff;
 }
-/* line 51, ../sass/app.scss */
+/* line 58, ../sass/app.scss */
 div.footer-wrap ul {
   list-style: none;
 }
